@@ -10,7 +10,7 @@ def are_isomorphic(n,s,t):
             return "false"
         mapping_s_to_t[char_s]=char_t
         mapping_t_to_s[char_t]=char_s
-        return "true"
+    return "true"
 n=int(input().strip())
 s=input().strip()
 t=input().strip()
